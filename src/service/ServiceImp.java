@@ -23,7 +23,7 @@ public class ServiceImp implements ServiceInterface {
 		String track=sc.next();
 		track=ValidateInputs.stringValidate(track);
 		int noOfMinds=ob.retrieveValue(track);
-		System.out.println("enter phone number: ");
+		System.out.println("enter phone numbers: ");
 		int mobile=ValidateInputs.intValidate();
 		System.out.println("enter role: ");
 		String role=sc.next();
